@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:WpfViewerDemo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
