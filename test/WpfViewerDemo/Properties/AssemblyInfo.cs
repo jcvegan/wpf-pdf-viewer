@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
-// La información general de un ensamblado se controla mediante el siguiente 
+// La información general de un ensamblado se controla mediante el siguiente
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("WpfViewerDemo")]
@@ -16,8 +16,8 @@ using System.Windows;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
-// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde 
+// Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles
+// para los componentes COM.  Si es necesario obtener acceso a un tipo en este ensamblado desde
 // COM, establezca el atributo ComVisible en true en este tipo.
 [assembly: ComVisible(false)]
 
@@ -32,13 +32,13 @@ using System.Windows;
 
 
 [assembly: ThemeInfo(
-    ResourceDictionaryLocation.None, //donde se encuentran los diccionarios de recursos específicos del tema
-                                     //(se utiliza si no se encuentra ningún recurso en la página,
-                                     // ni diccionarios de recursos de la aplicación)
-    ResourceDictionaryLocation.SourceAssembly //donde se encuentra el diccionario de recursos genérico
-                                              //(se utiliza si no se encuentra ningún recurso en la página,
-                                              // aplicación o diccionarios de recursos específicos del tema)
-)]
+     ResourceDictionaryLocation.None, //donde se encuentran los diccionarios de recursos específicos del tema
+     //(se utiliza si no se encuentra ningún recurso en la página,
+     // ni diccionarios de recursos de la aplicación)
+     ResourceDictionaryLocation.SourceAssembly //donde se encuentra el diccionario de recursos genérico
+     //(se utiliza si no se encuentra ningún recurso en la página,
+     // aplicación o diccionarios de recursos específicos del tema)
+ )]
 
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:

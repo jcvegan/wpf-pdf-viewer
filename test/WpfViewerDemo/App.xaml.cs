@@ -8,10 +8,10 @@ using System.Windows;
 
 namespace WpfViewerDemo
 {
-    /// <summary>
-    /// Lógica de interacción para App.xaml
-    /// </summary>
-    public partial class App : Application
-    {
-    }
+/// <summary>
+/// Lógica de interacción para App.xaml
+/// </summary>
+public partial class App : Application
+{
+}
 }
