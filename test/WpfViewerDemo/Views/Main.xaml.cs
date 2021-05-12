@@ -13,16 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfViewerDemo.Views
-{
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
-    public partial class Main : Window
-    {
-        public Main()
-        {
-            InitializeComponent();
-        }
-    }
+namespace WpfViewerDemo.Views {
+  /// <summary>
+  /// Lógica de interacción para MainWindow.xaml
+  /// </summary>
+  public partial class Main : Window {
+    public Main() { InitializeComponent(); }
+  }
 }
