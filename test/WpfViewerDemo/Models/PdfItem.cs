@@ -1,14 +1,12 @@
-﻿namespace WpfViewerDemo.Models
-{
-public class PdfItem
-{
+﻿namespace WpfViewerDemo.Models {
+  public class PdfItem {
     public bool IsFileSelected {
-        get;
-        set;
+      get;
+      set;
     }
     public string PdfSelectedPath {
-        get;
-        set;
+      get;
+      set;
     }
-}
+  }
 }
