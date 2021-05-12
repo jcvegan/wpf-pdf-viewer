@@ -15,14 +15,14 @@ using System.Windows.Shapes;
 
 namespace WpfViewerDemo.Views
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
-    public partial class Main : Window
+/// <summary>
+/// Lógica de interacción para MainWindow.xaml
+/// </summary>
+public partial class Main : Window
+{
+    public Main()
     {
-        public Main()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
+}
 }

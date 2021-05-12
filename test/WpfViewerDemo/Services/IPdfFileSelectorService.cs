@@ -2,8 +2,8 @@
 
 namespace WpfViewerDemo.Services
 {
-    public interface IPdfFileSelectorService
-    {
-        PdfItem SelectPdf();
-    }
+public interface IPdfFileSelectorService
+{
+    PdfItem SelectPdf();
+}
 }

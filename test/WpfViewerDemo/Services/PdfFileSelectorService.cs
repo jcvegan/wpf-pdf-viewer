@@ -3,30 +3,30 @@ using WpfViewerDemo.Models;
 
 namespace WpfViewerDemo.Services
 {
-    public class PdfFileSelectorService : IPdfFileSelectorService
+public class PdfFileSelectorService : IPdfFileSelectorService
+{
+    public PdfItem SelectPdf()
     {
-        public PdfItem SelectPdf()
+        var selectedFile = new PdfItem()
         {
-            var selectedFile = new PdfItem()
-            {
-                IsFileSelected = false
-            };
+            IsFileSelected = false
+        };
 
-            var openDialog = new OpenFileDialog()
-            {
-                DefaultExt = ".pdf",
-                Filter = "Pdf Files (*.pdf)|*.pdf"
-            };
+        var openDialog = new OpenFileDialog()
+        {
+            DefaultExt = ".pdf",
+            Filter = "Pdf Files (*.pdf)|*.pdf"
+        };
 
-            var result = openDialog.ShowDialog();
+        var result = openDialog.ShowDialog();
 
-            if(result != true)
-                return selectedFile;
-
-            selectedFile.IsFileSelected = true;
-            selectedFile.PdfSelectedPath = openDialog.FileName;
-
+        if(result != true)
             return selectedFile;
-        }
+
+        selectedFile.IsFileSelected = true;
+        selectedFile.PdfSelectedPath = openDialog.FileName;
+
+        return selectedFile;
     }
+}
 }
