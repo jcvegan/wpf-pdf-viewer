@@ -12,8 +12,9 @@
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
                 <Button Content="Select File" Command="{Binding SelectPdfCommand}" />
+                <Button Content="Unload" Command="{Binding ElementName=TheViewer, Path=ResetCommand}" />
             </ToolBar>
         </ToolBarTray>
-        <pdf:PdfFileViewer Grid.Row="1" FileSource="{Binding PdfFilePath}" />
+        <pdf:PdfFileViewer Grid.Row="1" FileSource="{Binding PdfFilePath}" x:Name="TheViewer" />
     </DockPanel>
 </Window>
